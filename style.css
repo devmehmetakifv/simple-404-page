@@ -1,0 +1,61 @@
+*{
+    font-family:Roboto Slab;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.main-container{
+    width:68%;
+    margin-left:16%;
+    margin-right:16%;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:0;
+    padding-bottom:0;
+    border:none;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.7);
+}
+.img-404{
+    display:block;
+    width:40%;
+    margin-left:30%;
+    margin-right:30%;
+}
+.content-container{
+    width:74%;
+    margin-left:13%;
+    margin-right:13%;
+    display:block;
+    text-align: center;
+}
+.content-title{
+    font-size:40px;
+    width:100%;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+}
+.button{
+    padding-left:17px;
+    padding-right:17px;
+    padding-top:12px;
+    padding-bottom:12px;
+    background-color: white;
+    color:black;
+    border-radius: 12px;
+    cursor:pointer;
+    border: solid;
+    border-width: 0.1px;
+    transition: box-shadow 0.25s, background-color 0.25s;
+    margin-bottom:100%;
+}
+.button:hover{
+    box-shadow: 2px 2px 7px rgba(0,0,0,0.7);
+    background-color: black;
+    border-color:black;
+    color:white;
+}
+.button:active{
+    opacity: 0.8;
+}
